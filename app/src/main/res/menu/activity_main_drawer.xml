@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Piadas GO">
+            <menu>
+                <item
+                    android:id="@+id/nav_sorteada"
+                    android:icon="@drawable/sorteada"
+                    android:title="Piada Sorteada" />
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share"
+                    android:title="Compartilhar este app" />
+            </menu>
+        </item>
+        <item android:title="Piadas de">
+            <menu>
+                <item
+                    android:id="@+id/nav_animais"
+                    android:icon="@drawable/animal"
+                    android:title="Animais" />
+                <item
+                    android:id="@+id/nav_bebados"
+                    android:icon="@drawable/copo"
+                    android:title="Bêbados" />
+                <item
+                    android:id="@+id/nav_bichas"
+                    android:icon="@drawable/gay"
+                    android:title="Bichas" />
+                <item
+                    android:id="@+id/nav_caipiras"
+                    android:icon="@drawable/caipira"
+                    android:title="Caipiras" />
+                <item
+                    android:id="@+id/nav_carnaval"
+                    android:icon="@drawable/carnaval"
+                    android:title="Carnaval" />
+                <item
+                    android:id="@+id/nav_casais"
+                    android:icon="@drawable/casal"
+                    android:title="Casais" />
+                <item
+                    android:id="@+id/nav_corno"
+                    android:icon="@drawable/corno"
+                    android:title="Corno" />
+                <item
+                    android:id="@+id/nav_cretinas"
+                    android:icon="@drawable/cretinas"
+                    android:title="Cretinas" />
+                <item
+                    android:id="@+id/nav_cumulo"
+                    android:icon="@drawable/cumulo"
+                    android:title="Cúmulo" />
+                <item
+                    android:id="@+id/nav_curtas"
+                    android:icon="@drawable/curta"
+                    android:title="Curtas" />
+                <item
+                    android:id="@+id/nav_estagiario"
+                    android:icon="@drawable/estagiario"
+                    android:title="Estagiários" />
+                <item
+                    android:id="@+id/nav_futebol"
+                    android:icon="@drawable/futebol"
+                    android:title="Futebol" />
+                <item
+                    android:id="@+id/nav_garcom"
+                    android:icon="@drawable/garcom"
+                    android:title="Garçom" />
+                <item
+                    android:id="@+id/nav_gospel"
+                    android:icon="@drawable/gospel"
+                    android:title="Gospel" />
+                <item
+                    android:id="@+id/nav_informatica"
+                    android:icon="@drawable/informatica"
+                    android:title="Informática" />
+                <item
+                    android:id="@+id/nav_joaozin"
+                    android:icon="@drawable/joaozinho"
+                    android:title="Joãozinho" />
+                <item
+                    android:id="@+id/nav_loira"
+                    android:icon="@drawable/loira"
+                    android:title="Loiras" />
+                <item
+                    android:id="@+id/nav_louco"
+                    android:icon="@drawable/louco"
+                    android:title="Loucos" />
+                <item
+                    android:id="@+id/nav_politicos"
+                    android:icon="@drawable/politico"
+                    android:title="Políticos" />
+                <item
+                    android:id="@+id/nav_portugues"
+                    android:icon="@drawable/portugues"
+                    android:title="Português" />
+                <item
+                    android:id="@+id/nav_carreira"
+                    android:icon="@drawable/profissional"
+                    android:title="Profissões" />
+            </menu>
+        </item>
+    </group>
+</menu>

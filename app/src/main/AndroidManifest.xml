@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="losfreitasapps.com.boapiada">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".Activities.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ShowActivities.ShowAnimaisActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowBebadosActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowBichasActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowCaipiraActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowCarnavalActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowCarreiraActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowCasaisActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowCornoActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowCretinasActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowCumuloActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowCurtasActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowEstagiariosActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowFutebolActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowGarcomActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowGospelActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowInformaticaActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowJoaozinActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowLoiraActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowLoucoActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowPoliticoActivity"
+            android:label=""></activity>
+        <activity
+            android:name=".ShowActivities.ShowPortuguesActivity"
+            android:label=""></activity>
+    </application>
+
+</manifest>
